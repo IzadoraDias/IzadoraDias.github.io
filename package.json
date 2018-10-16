@@ -1,0 +1,23 @@
+{
+  "name": "meu-portf-lio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzadoraDias/meu-portf-lio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IzadoraDias/meu-portf-lio/issues"
+  },
+  "homepage": "https://github.com/IzadoraDias/meu-portf-lio#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  }
+}

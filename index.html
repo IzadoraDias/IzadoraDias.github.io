@@ -78,7 +78,7 @@
   </div>
 </section>
 
-<!-- projeto -->
+<!-- projetos -->
 <section class="portfolio">
   <div class="container">
     <H3 class="title-section d-flex justify-content-center">Projetos {REPROGRAMA}</h3>
@@ -105,14 +105,14 @@
         <div class="col">
           <img class="portfolio-img" src="img/proj3.png" alt="">
           <div class="portfolio-hover">
-            <p>MUNDO GELADO</p>
+            <p>M DE MARAVILHOSAS</p>
             <button type="button" class="btn btn-outline-primary btn-lg rounded-circle" data-toggle="modal" data-target="#modal-proj3">
               +
             </button>
           </div>
         </div>
+      </div>
     </div>
-  </div>
   </div>
   </div>
 </section>
@@ -125,19 +125,19 @@
       <form class="form-contact" name="contact" netlify="">
         <div class="form-group">
           <label for="inputName">Nome</label>
-          <input type="text" class="form-control" id="inputName" placeholder="Escreva seu nome">
+          <input type="text" name="name" class="form-control" id="inputName" placeholder="Preciso saber o seu nome">
         </div>
         <div class="form-group">
           <label for="inputEmail">Email</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="Escreva seu email">
+          <input type="email" name="email" class="form-control" id="inputEmail" placeholder="O seu email">
         </div>
         <div class="form-group">
           <label for="inputPhone">Phone</label>
-          <input type="text" class="form-control" id="inputPhone" placeholder="Escreva seu telefone">
+          <input type="text" name="phone" class="form-control error" id="inputPhone" aria-describedby="msgPhone-error" placeholder="O seu telefone">
         </div>
         <div class="form-group">
-          <label for="msgContact">Escreva uma mensagem</label>
-          <textarea class="form-control" id="msgContact" rows="4"></textarea>
+          <label for="msgContact">Mensagem</label>
+          <textarea class="form-control error" name="contact" id="msgContact" rows="4" aria-describedby="msgcontact-error" Cplaceholder="Diga-me como te posso ajudar"></textarea>
         </div>
         <button class="btn btn-primary" style="width: 100%">Enviar</button>
       </form>
@@ -149,9 +149,10 @@
 
   <!-- js -->
   <script src="js/jquery.slim.min.js"></script>
-  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  
+  <script src="js/script.js"></script>
+
 </body>
 
 </html>

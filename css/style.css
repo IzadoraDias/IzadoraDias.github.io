@@ -57,3 +57,9 @@
 .contact {
   margin-top: 55px;
 }
+
+span.error{
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+}

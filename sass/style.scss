@@ -1,0 +1,69 @@
+$color: #bb5aa6;
+
+
+.carousel img{
+    height: 80vh;
+    object-fit: cover;
+  }
+  
+  .aboutme{
+    margin-top: 55px;
+  }
+  
+  .aboutme-progress{
+      margin-top: 55px; 
+  } 
+  
+  .progress{
+      margin: 10px;
+      height: 25px;
+  }
+  
+  .progress-bar{
+    background-color:rgb(187, 90, 166);
+    font-weight: bold;
+  }
+  
+  .portfolio{
+    margin-top: 60px;
+  }
+  
+  &imgs{
+    margin-top: 35px;
+  }
+  
+    &portfolio-img {
+    width: 280px;
+    height: 280px;
+  }
+  
+  .projetos:hover .portfolio-hover{
+   opacity:1;
+  }
+  
+  &.portfolio-hover{
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+    background: rgba(75, 44, 77, 0.8);
+    top: 0;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  .contact {
+    margin: 55px 0;
+  }
+  
+  span.error{
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+  }

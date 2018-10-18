@@ -1,65 +1,81 @@
-.carousel img{
-  height: 80vh;
-  object-fit: cover;
+.header{
+  color: #bb5aa6;
 }
 
+.carousel img {
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
-
-.aboutme{
+.aboutme {
   margin-top: 55px;
 }
 
-.aboutme-progress{
-    margin-top: 55px; 
-} 
-
-.progress{
-    margin: 10px;
-    height: 25px;
+.aboutme-progress {
+  margin: 30px 0;
 }
 
+.progress {
+  margin: 7px 0;
+  height: 25px;
+}
 
-.progress-bar{
-  background-color:rgb(187, 90, 166);
+.progress-bar {
+  background-color: #bb5aa6;
   font-weight: bold;
 }
 
-.portfolio{
-  margin-top: 60px;
+.portfolio {
+  margin: 45px 0;
 }
 
-.portfolio-imgs{
+imgs {
   margin-top: 35px;
 }
 
-.portfolio img{
- height: 50vh;
- width: 50vh;
+.portfolio .portfolio-img {
+  width: 280px;
+  height: 280px;
+}
+
+.projetos:hover .portfolio-hover {
+  opacity: 1;
 }
 
 .portfolio .portfolio-hover {
-  position: relative;
-  opacity: 0;
-  transition: 0.3s;
   position: absolute;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: rgba(75, 44, 77, 0.8);
   top: 0;
-  left: 0;
-  width: 100vh;
-  height: 100vh;
+  width: 280px;
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.8);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-weight: bold;
 }
-
 
 .contact {
-  margin-top: 55px;
+  margin: 55px 0;
 }
 
-span.error{
+span.error {
   font-size: 14px;
   font-weight: bold;
   color: red;
 }
+/*# sourceMappingURL=style.css.map */

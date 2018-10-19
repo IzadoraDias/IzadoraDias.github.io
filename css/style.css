@@ -1,3 +1,9 @@
+body{
+}
+a{
+  text-decoration: none;
+}
+
 .header{
   color: #bb5aa6;
 }
@@ -77,5 +83,20 @@ span.error {
   font-size: 14px;
   font-weight: bold;
   color: red;
+}
+
+
+.btn-primary{
+  background-color: rgba(75, 44, 77, 0.8);
+  border-color: rgba(75, 44, 77, 0.8);
+}
+
+.btn-primary:hover{
+  background-color: rgba(181, 100, 187, 0.8);
+  border-color: rgba(181, 100, 187, 0.8);
+}
+
+.social-media{
+  background-color: #492641;
 }
 /*# sourceMappingURL=style.css.map */
